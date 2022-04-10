@@ -93,9 +93,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Rourkela',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 20,
+        placement: 936000,
+        state: "Odisha",
         cs: {
             home_state: {
                 male: {
@@ -176,9 +176,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Surathkal',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 10,
+        placement: 2140000,
+        state: "Karnataka",
         cs: {
             home_state: {
                 male: {
@@ -259,9 +259,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Warangal',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 23,
+        placement: 1980000,
+        state: "Telangana",
         cs: {
             home_state: {
                 male: {
@@ -342,9 +342,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Kurukshetra',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 44,
+        placement: 1090000,
+        state: "Haryana",
         cs: {
             home_state: {
                 male: {
@@ -425,9 +425,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Durgapur',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 29,
+        placement: 900000,
+        state: "West Bengal",
         cs: {
             home_state: {
                 male: {
@@ -508,9 +508,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Allahabad',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 42,
+        placement: 1350000,
+        state: "Uttar Pradesh",
         cs: {
             home_state: {
                 male: {
@@ -591,9 +591,9 @@ export let nit_and_iiit_college_data = [
     },{
         type: 'nit',
         college_name: 'NIT Calicut',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        nirf: 25,
+        placement: 1300000,
+        state: "Kerala",
         cs: {
             home_state: {
                 male: {
