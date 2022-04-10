@@ -15,3 +15,7 @@ The static files will be stored inside the "dist" directory.
     
 ## To start a server using the production build
     npm run preview
+
+## To view a live version of this website
+Head on to the github repo: https://github.com/elbertronnie/hackstack-development-duo-live-website/
+The live website is available here: https://elbertronnie.github.io/hackstack-development-duo-live-website/
