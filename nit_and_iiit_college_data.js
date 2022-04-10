@@ -1,11 +1,3 @@
-
-// TODO: data on NIT Jaipur is incomplete
-// Add state data
-// nirf and placement data is left
-// ece data is left
-// add iiit data
-// add one more nit
-
 export let nit_and_iiit_college_data = [
     {
         type: 'nit',
@@ -89,7 +81,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "22km",
         airport_name: "from Trichy airport",
         campus_area: "800 acres",
-        fees: "1.26L",
+        fees: "1.26 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Rourkela',
@@ -172,7 +164,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "130km",
         airport_name: "from Jharsuguda airport",
         campus_area: "1200 acres",
-        fees: "1.24L",
+        fees: "1.24 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Surathkal',
@@ -255,7 +247,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "20km",
         airport_name: "Mangalore Airport",
         campus_area: "295 acres",
-        fees: "1.25L",
+        fees: "1.25 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Warangal',
@@ -338,7 +330,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "167km",
         airport_name: "from Hyderabad airport",
         campus_area: "248 acres",
-        fees: "2.24L",
+        fees: "2.24 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Kurukshetra',
@@ -421,7 +413,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "78.7km",
         airport_name: "from Chandigarh airport",
         campus_area: "300 acres",
-        fees: "1.5L",
+        fees: "1.5 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Durgapur',
@@ -504,7 +496,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "20km",
         airport_name: "from Kaji Najrul Islam Airport ",
         campus_area: "187 acres",
-        fees: "1.49L",
+        fees: "1.49 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Allahabad',
@@ -587,7 +579,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "15km",
         airport_name: "from Bamrauli airport",
         campus_area: "222 acres",
-        fees: "1.91L",
+        fees: "1.91 LPA",
     },{
         type: 'nit',
         college_name: 'NIT Calicut',
@@ -670,79 +662,90 @@ export let nit_and_iiit_college_data = [
         airport_distance: "32km",
         airport_name: "from calicut airport ",
         campus_area: "296 acres",
-        fees: "1.37L",
+        fees: "1.37 LPA",
     },{
         type: 'nit',
-        college_name: 'NIT Jaipur',
-        nirf: 0,
-        placement: 0,
-        state: "",
+        college_name: 'NIT Surat',
+        nirf: 47,
+        placement: 1410000,
+        state: "Gujarat",
         cs: {
             home_state: {
                 male: {
-                    open: 340,
-                    close: 3816,
+                    open: 4396,
+                    close: 7579,
                 },
                 female: {
-                    open: 5612,
-                    close: 8241,
+                    open: 9360,
+                    close: 11688,
                 },
             },
             other_state: {
                 male: {
-                    open: 24,
-                    close: 3142,
+                    open: 2080,
+                    close: 5337,
                 },
                 female: {
-                    open: 1863,
-                    close: 5129,
+                    open: 1430,
+                    close: 7138,
                 },
             },
         },
         ele: {
             home_state: {
                 male: {
-                    open: 8954,
-                    close: 12749,
+                    open: 17743,
+                    close: 23598,
                 },
                 female: {
-                    open: 13526,
-                    close: 17741,
+                    open: 20454,
+                    close: 33785,
                 },
             },
             other_state: {
                 male: {
-                    open: 10540,
-                    close: 14500,
+                    open: 13890,
+                    close: 17785,
                 },
                 female: {
-                    open: 14425,
-                    close: 21717,
+                    open: 21006,
+                    close: 24986,
                 },
             },
         },
         mech: {
             home_state: {
                 male: {
-                    open: 13008,
-                    close: 19747,
+                    open: 6715,
+                    close: 34688,
                 },
                 female: {
-                    open: 24768,
-                    close: 29164,
+                    open: 34361,
+                    close: 47375,
                 },
             },
             other_state: {
                 male: {
-                    open: 9779,
-                    close: 19453,
+                    open: 16586,
+                    close: 24985,
                 },
                 female: {
-                    open: 24175,
-                    close: 30951,
+                    open: 26020,
+                    close: 38051,
                 },
             },
         },
+        youtube_link: '<iframe width="320" height="180" src="https://www.youtube.com/embed/7i11QJlS6Yc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        avg_salary: " 14.1L",
+        median_salary: "9L",
+        highest_salary: " 40.5L",
+        placement_ratio: "90%",
+        railway_distance: "9km",
+        railway_name: "from Surat railway station",
+        airport_distance: "10km",
+        airport_name: "from Surat airport",
+        campus_area: "250acres",
+        fees: "1.5 LPA",
     },{
         type: 'iiit',
         college_name: 'IIITM Gwalior',
@@ -768,7 +771,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "12km",
         airport_name: "from Gwalior city airport",
         campus_area: "160 acres",
-        fees: "1.9L",
+        fees: "1.9 LPA",
     },{
         type: 'iiit',
         college_name: 'IIIT Lucknow',
@@ -794,7 +797,7 @@ export let nit_and_iiit_college_data = [
         airport_distance: "23km",
         airport_name: "from Amausi airport",
         campus_area: "50 acres",
-        fees: "2.19L",
+        fees: "2.19 LPA",
     },{
         type: 'iiit',
         college_name: 'IIITDM Kancheepuram',
@@ -820,6 +823,6 @@ export let nit_and_iiit_college_data = [
         airport_distance: "25km",
         airport_name: "from Chennai International airport",
         campus_area: "51 acres",
-        fees: "2L",
+        fees: "2 LPA",
     },
 ]
