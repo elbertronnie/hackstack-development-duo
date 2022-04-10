@@ -22,7 +22,8 @@ function update_list(){
     let rank = +rank_input.value;
     let sort_by = sort_by_select.value;
 
-    let college_list = nit_and_iiit_college_data.filter(x => x[stream][state == x.state ? 'home_state' : 'other_state'][gender]?.close > rank);
+    let college_list = nit_and_iiit_college_data.filter(x => x.type == 'nit' ? x?.[stream]?.[state == x.state ? 'home_state' : 'other_state']?.[gender]?.close > rank 
+                                                                             : x?.[stream]?.[gender]?.close > rank);
 
     let compareBy = map_func => (a, b) => {
         a = map_func(a);
@@ -36,7 +37,7 @@ function update_list(){
         }
     }
 
-    let compare_func = sort_by === 'close' ?        x => x[stream][state == x.state ? 'home_state' : 'other_state'][gender].close : 
+    let compare_func = sort_by === 'close' ?        x => x.type == 'nit' ? x[stream][state == x.state ? 'home_state' : 'other_state'][gender].close : x[stream][gender].close : 
                        sort_by === 'placement' ?    x => -x['placement'] :
                                                     x => x[sort_by];
     
