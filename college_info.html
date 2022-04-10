@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Info | JoSSA Counselor</title>
+    <link rel="stylesheet" href="./tailwind.css">
+</head>
+<body>
+    <nav class="bg-orange-500 w-full flex flex-wrap justify-center sm:justify-between ">
+        <div class="my-2 mx-3 font-bold text-white text-2xl">JoSSA Councelor</div>
+        <ul class="text-white flex justify-end space-x-3 pr-3">
+            <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="index.html">Home</a></button></li>
+            <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="blogs.html">Blogs</a></button></li>
+            <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="guide.html">Guide</a></button></li>
+            <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="about_us.html">About us</a></button></li>
+        </ul>
+      </nav>
+
+    <div class="m-12 text-center align-middle">
+        <span id="college_name" class="grow uppercase text-4xl text-center"></span>
+    </div>
+
+    <div id="youtube_link" class="flex justify-center">
+    </div>
+    
+    <div class="text-center text-2xl m-8">
+        Placement Stats
+        <div class="flex flex-row flex-wrap justify-center gap-x-12 gap-y-2 p-4">
+            <div>
+                <div id="avg_salary" class="text-4xl text-orange-500 font-bold"></div>
+                <div class="text-sm">Average Salary</div>
+            </div>
+            <div>
+                <div id="median_salary" class="text-4xl text-orange-500 font-bold"></div>
+                <div class="text-sm">Median Salary</div>
+            </div>
+            <div>
+                <div id="highest_salary" class="text-4xl text-orange-500 font-bold"></div>
+                <div class="text-sm">Highest Salary</div>
+            </div>
+            <div>
+                <div id="placement_ratio" class="text-4xl text-orange-500 font-bold"></div>
+                <div class="text-sm">Placement Ratio</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="text-center text-2xl m-8">
+        Transportation
+        <div class="flex flex-row flex-wrap justify-center gap-x-12 gap-y-2 p-4">
+            <div>
+                <div id="railway_distance" class="text-4xl text-orange-500 font-bold"></div>
+                <div id="railway_name" class="text-sm"></div>
+            </div>
+            <div>
+                <div id="airport_distance" class="text-4xl text-orange-500 font-bold"></div>
+                <div id="airport_name" class="text-sm"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center text-xl m-8">
+        <table class="mx-auto">
+            <tr>
+                <td class="text-right text-xl p-1">Campus Area:</td>
+                <td id="campus_area" class="text-xl p-1"></td>
+            </tr>
+            <tr>
+                <td class="text-right text-xl p-1">Fees:</td>
+                <td id="fees" class="text-xl p-1"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="text-right mt-16">
+        <form action="mailto:elbert.ronniep@gmail.com" method="post" enctype="text/plain" style="width: 340;" class="mx-auto table text-right rounded ring ring-orange-500">
+            <table>
+                <tr>
+                    <td colspan="2" class="p-4 text-center bg-orange-100">If you want to know more about this college, you can contact a student studying in this college by filling this form</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 text-right"><label for="name" class="p-2 whitespace-nowrap">Name:</label></td>
+                    <td class="py-2 px-4 text-right"><input name="name" id="name" type="text" class="
+                        form-input
+                        px-3 py-1.5 m-0 w-48
+                        text-base font-normal text-gray-700
+                        bg-white bg-clip-padding
+                        border border-solid border-gray-300
+                        rounded
+                        transition ease-in-out duration-200
+                        focus:ring focus:ring-orange-200 focus:ring-opacity-50
+                        focus:text-gray-700 focus:bg-white focus:border-orange-500 focus:outline-none
+                    "></td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 text-right"><label for="phone" class="p-2 whitespace-nowrap">Phone No:</label></td>
+                    <td class="py-2 px-4 text-right"><input name="phone" id="phone" type="text" class="
+                        form-input
+                        px-3 py-1.5 m-0 w-48
+                        text-base font-normal text-gray-700
+                        bg-white bg-clip-padding
+                        border border-solid border-gray-300
+                        rounded
+                        transition ease-in-out duration-200
+                        focus:ring focus:ring-orange-200 focus:ring-opacity-50
+                        focus:text-gray-700 focus:bg-white focus:border-orange-500 focus:outline-none
+                    "></td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 text-right align-top"><label for="query" class="p-2 whitespace-nowrap">Query:</label></td>
+                    <td class="py-2 px-4 text-right align-top"><textarea name="query" id="query" class="
+                        form-input
+                        px-3 py-1.5 m-0 w-48 align-top
+                        text-base font-normal text-gray-700
+                        bg-white bg-clip-padding
+                        border border-solid border-gray-300
+                        rounded
+                        transition ease-in-out duration-200
+                        focus:ring focus:ring-orange-200 focus:ring-opacity-50
+                        focus:text-gray-700 focus:bg-white focus:border-orange-500 focus:outline-none
+                    "></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="py-2 px-4 pb-4 text-right">
+                        <input type="submit" value="Submit" class="
+                        px-2 py-1 w-full
+                        border border-solid border-gray-300
+                        text-gray-700
+                        hover:bg-orange-500 hover:text-white hover:border-orange-500
+                        focus:bg-orange-500 focus:text-white focus:border-orange-500
+                        focus:ring focus:ring-orange-200 focus:ring-opacity-50
+                        rounded 
+                        transition ease-in-out duration-200
+                        cursor-pointer
+                    ">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script type="module" src="./scripts/college_info.js"></script>
+</body>
+</html>

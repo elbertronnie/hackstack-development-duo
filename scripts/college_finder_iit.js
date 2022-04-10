@@ -47,7 +47,7 @@ function update_list(){
     let html_string = "";
 
     for(let data of college_list){
-        html_string += `<a href="college_info.html?id=${data.college_id}" class="
+        html_string += `<a href="college_info.html?type=iit&id=${data.college_id}" target="_blank" class="
                             block 
                             px-4 py-2 
                             border-b border-gray-200 
