@@ -1,7 +1,3 @@
-
-// TODO: remove blank {} subjects.
-// ece is left
-
 export let iit_college_data = [
     {
         college_name: "IIT Madras",
@@ -15,7 +11,6 @@ export let iit_college_data = [
                 close: 644,
             },
         },
-        ece:{},
         ele: {
             male: {
                 open: 280,
@@ -47,6 +42,8 @@ export let iit_college_data = [
         railway_name: "from Chennai Railway Station",
         airport_distance: "10km",
         airport_name: "from Chennai Airport",
+        campus_area: "617 acres",
+        fees: "2.24 LPA",
     },{
         college_name: "IIT Kharagpur",
         cs: {
@@ -100,6 +97,8 @@ export let iit_college_data = [
         railway_name: "from Kharagpur Railway Station",
         airport_distance: "122km",
         airport_name: "from Netaji Subhas Chandra Bose International Airport",
+        campus_area: "2100 acres",
+        fees: "1.7 LPA",
     },{
         college_name: "IIT Bombay",
         cs: {
@@ -144,6 +143,8 @@ export let iit_college_data = [
         railway_name: "from Kanjurmarg Railway Station",
         airport_distance: "9km",
         airport_name: "from Mumbai Airport",
+        campus_area: "550 acres",
+        fees: "2.2 LPA",
     },{
         college_name: "IIT Kanpur",
         cs: {
@@ -188,6 +189,8 @@ export let iit_college_data = [
         railway_name: "from Kanpur Central Railway Station",
         airport_distance: "80km",
         airport_name: "from Lucknow Airport",
+        campus_area: "1055 acres",
+        fees: "2.2 LPA",
     },{
         college_name: "IIT Delhi",
         cs: {
@@ -232,6 +235,8 @@ export let iit_college_data = [
         railway_name: "from New Delhi Railway Station",
         airport_distance: "10km",
         airport_name: "from Delhi Airport",
+        campus_area: "320 acres",
+        fees: "2.14 LPA",
     },{
         college_name: "IIT Guwahati",
         cs: {
@@ -285,6 +290,8 @@ export let iit_college_data = [
         railway_name: "from Guwahati Railway Station",
         airport_distance: "23km",
         airport_name: "from Guwahati Airport",
+        campus_area: "700 acres",
+        fees: "2 LPA",
     },{
         college_name: "IIT Roorkee",
         cs: {
@@ -338,6 +345,8 @@ export let iit_college_data = [
         railway_name: "from Roorkee Railway Station",
         airport_distance: "65km",
         airport_name: "from Jolly Grant Airport",
+        campus_area: "365 acres",
+        fees: "2.1 LPA",
     },{
         college_name: "IIT Ropar",
         cs: {
@@ -382,6 +391,8 @@ export let iit_college_data = [
         railway_name: "from Ropar Railway Station",
         airport_distance: "66km",
         airport_name: "from Chandigarh Airport",
+        campus_area: "501 acres",
+        fees: "2 LPA",
     },{
         college_name: "IIT Bhubaneshwar",
         cs: {
@@ -435,6 +446,8 @@ export let iit_college_data = [
         railway_name: "from Khurda Road Junction Railway Station",
         airport_distance: "35km",
         airport_name: "from Bhubaneswar Biju Pattanaik International Airport",
+        campus_area: "936 acres",
+        fees: "2 LPA",
     },{
         college_name: "IIT Gandhinagar",
         cs: {
@@ -479,5 +492,7 @@ export let iit_college_data = [
         railway_name: "from Ahmedabad Railway Station",
         airport_distance: "26km",
         airport_name: "from Ahmedabad Airport",
+        campus_area: "400 acres",
+        fees: "2.1 LPA",
     },
 ];
