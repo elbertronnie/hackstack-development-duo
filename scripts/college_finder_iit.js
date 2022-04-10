@@ -8,10 +8,8 @@ let sort_by_select = document.getElementById('sort-by-select');
 let college_list_div = document.getElementById('college-list');
  
 // TODO: Onboarding process - tooltip redirect to how to use page
-
+// TODO: Change placement statistics with average salary
 // TODO: Use the first and last seector in tailwind to fix the list border
-
-let iit_college_data;
 
 let i = 0;
 for(let data of iit_college_data){
@@ -26,7 +24,7 @@ function update_list(){
     let rank = +rank_input.value;
     let sort_by = sort_by_select.value;
     
-    let college_list = iit_college_data.filter(x => x.type == 'iit').filter(x => x[stream][gender]?.close > rank);
+    let college_list = iit_college_data.filter(x => x[stream][gender]?.close > rank);
 
     let compareBy = map_func => (a, b) => {
         a = map_func(a);
@@ -39,9 +37,11 @@ function update_list(){
             return 0;
         }
     }
-
-    let compare_func = sort_by === 'close' ? x => x[stream][gender].close : x => x[sort_by];
     
+    let compare_func = sort_by === 'close' ?        x => x[stream][gender].close : 
+                       sort_by === 'placement' ?    x => -x.placement : 
+                                                    x => x[sort_by];
+
     college_list.sort(compareBy(compare_func));
 
     let html_string = "";
