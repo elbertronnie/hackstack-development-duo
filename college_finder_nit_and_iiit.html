@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IITs</title>
+    <title>NITs & IIITs</title>
     <link rel="stylesheet" href="./tailwind.css">
 </head>
 <body class="bg-gray-100">
@@ -11,15 +11,15 @@
   <nav class="bg-orange-500 w-full flex flex-wrap justify-center sm:justify-between ">
     <div class="my-2 mx-3 font-bold text-white text-2xl">JoSSA Councelor</div>
     <ul class="text-white flex justify-end space-x-3 pr-3">
-        <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="index.html">Home</a></button></li>
-        <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="blogs.html">Blogs</a></button></li>
-        <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="guide.html">Guide</a></button></li>
-        <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="about us.html">About us</a></button></li>
+      <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="index.html">Home</a></button></li>
+      <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="blogs.html">Blogs</a></button></li>
+      <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="guide.html">Guide</a></button></li>
+      <li class="cursor-pointer"><button class="h-12 hover:underline"><a href="about_us.html">About us</a></button></li>
     </ul>
   </nav>
 
   <div class="text-center font-bold text-2xl mt-8">
-    College Finder (IITs)
+    College Finder (NITs & IIITs)
   </div>
 
   <div class="text-center">
@@ -48,6 +48,24 @@
         </div>
       </div>
       <div>
+        <label for="state-select" class="p-2">Home State:</label>
+        <select name="state" id="state-select" class="
+          form-select
+          px-3 py-1.5 m-0 w-48
+          text-base font-normal text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded
+          transition ease-in-out duration-200
+          focus:ring focus:ring-orange-200 focus:ring-opacity-50
+          focus:text-gray-700 focus:bg-white focus:border-orange-500 focus:outline-none
+          cursor-pointer
+        ">
+          <option value="other" selected>Other</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+        </select>
+      </div>        
+      <div>
         <label for="stream-select" class="p-2">Stream:</label>
             <select name="stream" id="stream-select" class="
               form-select
@@ -69,7 +87,7 @@
       </div>
         <div>
             <label for="rank-input" class="p-2">Rank:</label>
-            <input type="number" name="rank" id="rank-input" placeholder="Enter rank in JEE Advanced" class="
+            <input type="number" name="rank" id="rank-input" placeholder="Enter rank in JEE Mains" class="
               form-input 
               px-3 py-1.5 m-0 w-48 
               text-base font-normal text-gray-700
@@ -104,7 +122,7 @@
         </div>
     </div>
     
-    <div class="">
+    <div>
         <div id="college-list" class="
           bg-white 
           rounded-lg 
@@ -115,6 +133,6 @@
         </div>
       </div>
     </div>
-      <script type="module" src="./scripts/college_finder_iit.js"></script>
+    <script type="module" src="./scripts/college_finder_nit_and_iiit.js"></script>
 </body>
 </html>
